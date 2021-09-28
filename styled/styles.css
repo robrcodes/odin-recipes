@@ -4,3 +4,16 @@
     }
 /* end variable declarations */
 
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    font: bold 54px var(--heading-font);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
