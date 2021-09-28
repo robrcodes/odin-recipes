@@ -1,19 +1,79 @@
 /* variable declarations */
 :root {
     --heading-font: Georgia, 'Times New Roman', serif;
+    --body-text-font: 'Lucida Console', monospace;
     }
 /* end variable declarations */
 
+
+/* This is a non-responsive FIXED-WIDTH layout */
+
+
 body {
+    background-color:#f7f0ee;
+    color: #442a22;
     margin: 0 auto;
 }
 
 h1 {
     font: bold 54px var(--heading-font);
     text-align: center;
+    
+}
+
+h2 { 
+    font: 32px var(--heading-font);
+    width: 640px;
+    margin: 30px auto;
 }
 
 img {
     display: block;
+    border: solid 4px #5454ab;
+    border-radius: 2%;
     margin: 0 auto;
+}
+
+body p,ul,ol {
+    font-family: var(--body-text-font);
+    font-size: 20px;
+    width: 640px;
+    margin: 30px auto;
+}
+
+p, ol li {
+    text-align: justify;
+}
+
+li {
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    width: 35%;
+    font-family: var(--body-text-font);
+    background-color: #5454ab;
+    color: #f7f0ee;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+    margin: 50px auto;    
+    padding: 14px;
+}
+
+a:hover {
+    background-color: #f7f0ee;
+    color: #5454ab;
+    font-weight: bold;
+}
+
+li a {
+    display: inline;
+    background-color: #f7f0ee;
+    color: #442a22;
+    font-size: 32px;
+    line-height: 150%;
+    text-decoration: none;
 }
